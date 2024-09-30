@@ -6,7 +6,7 @@ import numpy as np
 from datetime import datetime
 
 # Membaca data
-day_df = pd.read_csv('main_data.csv')
+day_df = pd.read_csv('dashboard/main_data.csv')
 
 # Mengubah kolom 'dteday' menjadi tipe datetime
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
